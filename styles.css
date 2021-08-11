@@ -81,4 +81,13 @@ body{
 }
 .btn:hover {
 	background: transparent;
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);}
+@media (min-width:720px){
+    .container{
+        flex-direction: row;
+    }
+    .tab{
+        max-width: 40ch;
+    }
+
+}
