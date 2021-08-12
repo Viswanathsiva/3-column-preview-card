@@ -20,7 +20,7 @@ body{
 	overflow: hidden;
 
 	
-	flex-direction: column;
+	flex-direction: row;
 
 }
 .img{
@@ -82,9 +82,9 @@ body{
 .btn:hover {
 	background: transparent;
 	color: rgb(255, 255, 255);}
-@media (min-width:720px){
+@media (max-width:720px){
     .container{
-        flex-direction: row;
+        flex-direction:column;
     }
     .tab{
         max-width: 40ch;
